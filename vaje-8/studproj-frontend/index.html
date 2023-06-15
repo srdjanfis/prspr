@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StudProj App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Studenti in projekti</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Seznam študentov</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="newStudent.html">Ustvari novega študenta</a>
+        </li>  
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <ul>
+                    <li><a class="nav-link" href="#">Seznam študentov</a></li>
+                    <li><a class="nav-link" href="newStudent.html">Ustvari novega študenta</a></li>
+                </ul>
+            </div>
+            <div class="col-9">
+              <h2>Seznam študentov na projektu PRA NOO</h2>
+                <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First name</th>
+          <th scope="col">Last name</th>
+        </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Janez</td>
+      <td>Novak</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Maja</td>
+      <td>Špeh</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Majda</td>
+      <td>Sagadin</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Jernej</td>
+      <td>Bernik</td>
+      
+    </tr>
+  </tbody>
+
+  </table>
+            </div>           
+        </div>
+        
+    </div>
+    <div class="container">
+        <footer style="background-color: #deded5;">
+   
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-dark" >PRA NOO</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
